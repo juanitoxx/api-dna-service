@@ -57,3 +57,11 @@ JSON solicitado:
 2. GET:
 Endpoint para consultar estadisticas de la cantidad 
 http//:localhost:8052/stats/
+
+# Soporte de cobertura 
+
+1. SonarQube coverage
+<img src = "images/jacocoTest.png width = "500">
+
+3. Jacoco Test Report coverage
+<img src = "images/sonarCoverage.png" width = "500">
