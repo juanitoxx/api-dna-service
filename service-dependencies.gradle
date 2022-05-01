@@ -1,0 +1,37 @@
+ext{
+
+ 	SPRING_BOOT_RUNTIME = [
+            [group: 'org.springframework.boot', name: 'spring-boot-starter-actuator'],
+            [group: 'org.springframework.boot', name: 'spring-boot-starter-web'],
+            [group: 'org.springframework', name: 'spring-context-support'],
+            [group: 'org.springframework.boot', name: 'spring-boot-starter-validation'],
+            [group: 'org.springframework.boot', name: 'spring-boot-starter-data-rest']
+    ]
+
+	SPRING_BOOT_UT = [
+            [group: 'org.springframework.boot', name: 'spring-boot-starter-test']
+    ]
+    
+    JPA_PERSISTENCE = [
+            [group: 'com.amazonaws', name: 'aws-java-sdk', version: awsJavaSdk],
+            [group: 'com.github.derjust', name: 'spring-data-dynamodb', version: dynamoDB]
+    ]
+    
+    MOCKING = [
+            [group: 'org.mockito', name: 'mockito-core', version: mockitoVersion]
+    ]
+    
+    JUNIT = [
+	    [group: 'junit', name: 'junit', version: junitVersion] 
+	]
+    
+    LOMBOK = [
+		[group: 'org.projectlombok', name: 'lombok', version: lombokVersion]
+	]
+	
+	LOG4J2 = [
+	    [group: 'org.apache.logging.log4j', name: 'log4j-api', version: log4jVersion],
+	    [group: 'org.apache.logging.log4j', name: 'log4j-core', version: log4jVersion]
+	]	
+	
+}

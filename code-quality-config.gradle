@@ -1,0 +1,51 @@
+ext['basePackage'] = 'com/co/mercadolibre'
+
+test {
+    jacoco {
+        enabled = true
+    }
+}
+
+jacocoTestReport {
+    reports {
+        xml.enabled false
+        csv.enabled false
+    }
+        afterEvaluate {
+        classDirectories.from = files(classDirectories.files.collect {
+            fileTree(
+                dir: it, 
+                exclude: [ 
+               	   "${basePackage}/crosscutting/patterns/**",
+        		   "${basePackage}/infrastructure/main/**",
+				   "${basePackage}/crosscutting/domain/**",
+				   "${basePackage}/crosscutting/persistence/entity/**",
+				   "${basePackage}/crosscutting/persistence/repository/**",
+				   "${basePackage}/infrastructure/configuration/**" ]                 
+                )
+        })
+    }
+}
+
+ext['sonarBasePackage'] = 'src/main/java/com/co/mercadolibre'
+
+ext['sonarExcludesPackages'] = [
+				   "${basePackage}/crosscutting/patterns/**",
+                   "${sonarBasePackage}/crosscutting/domain/**",
+				   "${sonarBasePackage}/infrastructure/main/**",
+				   "${sonarBasePackage}/crosscutting/persistence/entity/**",
+				   "${sonarBasePackage}/crosscutting/persistence/repository/**",
+				   "${sonarBasePackage}/infrastructure/configuration/**"]
+
+sonarqube {
+    properties {
+        property "sonar.projectName", "api-dna-service"
+        property "sonar.projectKey", "api-dna-service"
+        property "sonar.language", "java"
+        property "sonar.jacoco.reportPath", "${buildDir}/jacoco/test.exec"
+		property "sonar.host.url", "http://localhost:9090/"
+		property "sonar.coverage.exclusions", sonarExcludesPackages
+		property "sonar.exclusions", sonarExcludesPackages										   
+    }
+    
+}
