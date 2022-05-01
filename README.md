@@ -31,4 +31,4 @@ http://apidnaservice-env-1.eba-m2hkahqz.us-east-1.elasticbeanstalk.com/stats/
 Las siguientes instrucciones se ejecutaron sobre STS 4( Spring tool Suite 4)
 
 1. Descargar código fuente
-2. Importar el proyecto como 
+2. Importar el proyecto como existente con gradle
