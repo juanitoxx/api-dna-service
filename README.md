@@ -34,19 +34,19 @@ Las siguientes instrucciones se ejecutaron sobre STS 4( Spring tool Suite 4)
 
 2. Importar el proyecto como existente con gradle
 
-![alt text](https://github.com/juanitoxx/api-dna-service/tree/main/images/import.jpg?raw=true)
+![Esta es una imagen](https://github.com/juanitoxx/api-dna-service/images/import.jpg?raw=true)
 
 3. Seleccionar la ruta del proyecto
 
-![alt text](https://github.com/juanitoxx/api-dna-service/tree/main/images/SelectProject.jpg?raw=true)
+!Esta es una imagen](https://github.com/juanitoxx/api-dna-service/tree/images/SelectProject.jpg?raw=true)
 
 4. Especificar la versión 7.0.1 de gradle y la ubicación de instalación tanto de Gradle como de JAVA. Haga clic en siguiente.
 
-![alt text](https://github.com/juanitoxx/api-dna-service/tree/main/images/SelectVersionGradleJava.jpg?raw=true)
+![Esta es una imagen](https://github.com/juanitoxx/api-dna-service/images/SelectVersionGradleJava.jpg?raw=true)
 
 5. Por ultimo de click en finalizar. El proyecto intentará descargar las dependencias correspondientes.
 
-![alt text](https://github.com/juanitoxx/api-dna-service/tree/main/images/SelectVersionGradleJava.jpg?raw=true)
+![Esta es una imagen](https://github.com/juanitoxx/api-dna-service/images/SelectVersionGradleJava.jpg?raw=true)
 
 #Enpoints para su ejecución en local:
 
