@@ -61,7 +61,7 @@ http//:localhost:8052/stats/
 # Soporte de cobertura 
 
 1. SonarQube coverage
-<img src = "images/jacocoTest.png width = "500">
+<img src = "images/sonarCoverage.png" width = "1000">
 
 3. Jacoco Test Report coverage
-<img src = "images/sonarCoverage.png" width = "500">
+<img src = "images/jacocoTest.png" width = "1000">
