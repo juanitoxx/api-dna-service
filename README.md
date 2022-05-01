@@ -32,3 +32,7 @@ Las siguientes instrucciones se ejecutaron sobre STS 4( Spring tool Suite 4)
 
 1. Descargar código fuente
 2. Importar el proyecto como existente con gradle
+3. Seleccionar la ruta del proyecto
+4. Especificar la versión 7.0.1 de gradle y la ubicación de instalación tanto de Gradle como de JAVA. Haga clic en siguiente.
+5. Por ultimo de click en finalizar. El proyecto intentará descargar las dependencias correspondientes.
+
