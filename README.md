@@ -38,7 +38,7 @@ Las siguientes instrucciones se ejecutaron sobre STS 4( Spring tool Suite 4)
 <img src = "images/SelectProject.png" width = "700">
 
 4. Especificar la versión 7.0.1 de gradle y la ubicación de instalación tanto de Gradle como de JAVA. Haga clic en siguiente.
-<img src = "images/SelectVersionGradleJava.png" width = "700">
+<img src = "images/SelectVersionGradleJava1.png" width = "700">
 
 5. Por ultimo de click en finalizar. El proyecto intentará descargar las dependencias correspondientes.
 <img src = "images/finishConfigurationpng.png" width = "700">
